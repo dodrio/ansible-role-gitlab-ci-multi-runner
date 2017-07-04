@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/m31271n/ansible-role-gitlab-ci-multi-runner.svg?branch=master)](https://travis-ci.org/m31271n/ansible-role-gitlab-ci-multi-runner)
 [![Ansible Galaxy](https://img.shields.io/badge/galaxy-m31271n.gitlab--ci--multi--runner-blue.svg)](https://galaxy.ansible.com/m31271n/gitlab-ci-multi-runner)
 
-Ansible role that setups gitlab-ci-multi-runner.
+Ansible role that installs gitlab-ci-multi-runner.
 
 ## Requirements
 

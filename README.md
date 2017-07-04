@@ -26,6 +26,10 @@ None.
       gitlab_ci_multi_runner_version: 9.3.0
 ```
 
+## Read more
++ https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/blob/master/docs/register/index.md
++ https://docs.gitlab.com/ce/ci/docker/using_docker_build.html
+
 * * *
 
 <p align="center">Made with ❤ by <a href="http://index.m31271n.com">m31271n</a></p>

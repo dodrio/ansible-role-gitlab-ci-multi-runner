@@ -1,0 +1,17 @@
+---
+- name: add official gitlab-ci-multi-runner repository
+  yum_repository:
+    name: runner_gitlab-ci-multi-runner
+    description: official gitlab-ci-multi-runner repository
+    baseurl: https://packages.gitlab.com/runner/gitlab-ci-multi-runner/el/7/$basearch
+    gpgkey: https://packages.gitlab.com/runner/gitlab-ci-multi-runner/gpgkey
+    repo_gpgcheck: yes
+    gpgcheck: no
+    sslverify: yes
+    sslcacert: /etc/pki/tls/certs/ca-bundle.crt
+    enabled: yes
+
+- name: ensure gitlab-ci-multi-runner-{{ gitlab_ci_multi_runner_version }} is installed
+  yum:
+    name: gitlab-ci-multi-runner-{{ gitlab_ci_multi_runner_version }}
+    state: present
